@@ -6,10 +6,14 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 nav_order: 2
 ---
+See [Google Scholar](https://scholar.google.com/citations?hl=en&user=wo1zj5kAAAAJ&view_op=list_works&sortby=pubdate). Asterisk (*) denotes corresponding authors. Ampersand (&) denotes equal contribution.
 
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography %}
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f papers -q @*[year={{y}}]* %}
+{% endfor %}
 
 </div>
