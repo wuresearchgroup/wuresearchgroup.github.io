@@ -15,11 +15,12 @@ nav_order: 4
 <br>
 
 ## Openings for graduate students <br>
-**We are currently recruiting highly self-motivated Master students to join our group.** Opportunities are broadly in the areas of molecular simulations of polymeric materials, machine learning for acceletrated multiscale modeling and materials design, and thoeretical advancement of polymers. The exact projects will vary and should reflect our mutual interests and funding. Interested students are encouraged to email `zhenghao.wu@xjtlu.edu.cn` with your CV and research interests. More details can be found on [Doctoral Admissions](https://www.xjtlu.edu.cn/en/admissions/doctoral) page. <br>
+**We are currently recruiting highly self-motivated Master students to join our group.** Opportunities are broadly in the areas of molecular simulations of polymeric materials, machine learning for acceletrated multiscale modeling and materials design, and thoeretical advancement of polymers. The exact projects will vary and should reflect our mutual interests and funding. Interested students are encouraged to email `zhenghao.wu@xjtlu.edu.cn` with your CV and research interests. More details can be found on [Doctoral Admissions](https://www.xjtlu.edu.cn/en/admissions/doctoral) page. <br><br>
 The funded positions with corresponding project titles are listed below:<br>
-- Machine Learning for Multiscale Simulations of Polymers with First-Principle Accuracy (1 Ph.D.)  <br><br>
+**Project** Machine Learning for Multiscale Simulations of Polymers with First-Principle Accuracy (1 Ph.D.)  <br><br>
 
 ## Undergraduates and high school students<br>
+We welcome interested undergraduate and high school students to our lab.** We have multiple projects available for students who are interested in getting hands-on experience with machine learning, molecular modelling, polymer simulations in the general area of chemistry, physics, and chemical engineering. You can email `zhenghao.wu@xjtlu.edu.cn` with your interests and background.<br><br>
 
 ## Contact us <br>
 **Department of Chemistry** <br>
