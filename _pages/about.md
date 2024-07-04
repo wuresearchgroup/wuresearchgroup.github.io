@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 </div>
 <br>
 
-**Welcome to the CompMacro Lab (<u>Comp</u>utational <u>Macro</u>molecular <u>Lab</u>) <a href='https://www.xjtlu.edu.cn/en'>@ Xi'an Jiaotong Liverpool University</a>!** We are a theoretical and computational research group. We use and develop tools such as molecular simulations, statistical thermodynamics and machine learning to study the behaviors of soft matter. We are particularly interested in polymers and biomolecules. The goal of our group is to rationally understand, predict, and design macromolecular materials to fight "Zombies", i.e., questions for energy, healthcare and sustainbility. To achieve these, we believe advancements are needed in the following two areas:
+**Welcome to the COMA Lab (<u>Co</u>mputational <u>Ma</u>cromolecular <u>Lab</u>) <a href='https://www.xjtlu.edu.cn/en'>@ Xi'an Jiaotong Liverpool University</a>!** We are a theoretical and computational research group. We use and develop tools such as molecular simulations, statistical thermodynamics and machine learning to study the behaviors of soft matter. We are particularly interested in polymers and biomolecules. The goal of our group is to rationally understand, predict, and design macromolecular materials to fight "Zombies", i.e., questions for energy, healthcare and sustainbility. To achieve these, we believe advancements are needed in the following two areas:
 
 - To advance the multiscale simulation capabilities to understand and predict materials properties from molecular to continuum levels
 - To develop intelligent approaches for materials-by-design of functional materials under normal and extreme conditions
