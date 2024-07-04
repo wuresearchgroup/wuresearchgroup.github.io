@@ -14,6 +14,11 @@ nav_order: 4
 </div>
 <br>
 
+### Openings for graduate students <br>
+**We are currently recruiting highly self-motivated Master students to join our group.** Opportunities are broadly in the areas of molecular simulations of polymeric materials, machine learning for acceletrated multiscale modeling and materials design, and thoeretical advancement of polymers. The exact projects will vary and should reflect our mutual interests and funding. Interested students are encouraged to email `zhenghao.wu@xjtlu.edu.cn` with your CV and research interests. More details can be found on [Doctoral Admissions](https://www.xjtlu.edu.cn/en/admissions/doctoral) page. <br><br>
+
+Currently, we have a funded project with an unfilled PhD position: Machine Learning for Multiscale Simulations of Polymers with First-Principle Accuracy  <br><br>
+
 ### Undergraduates and high school students<br>
 
 ### Contact us <br>
