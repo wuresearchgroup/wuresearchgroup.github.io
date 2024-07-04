@@ -5,6 +5,6 @@ description: Undergraduate Student (Chemistry)<br>Email&#58; Ziran.Wu22@student.
 img: assets/img/ziran_wu.jpeg
 redirect: 
 importance: 1
-category: Undergraduate Students
+category: Undergraduates
 horizontal: true
 ---
