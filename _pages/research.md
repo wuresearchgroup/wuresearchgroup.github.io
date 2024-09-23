@@ -7,14 +7,12 @@ nav: true
 nav_order: 1
 ---
 
-Currently, our goal is to push the boundaries of the following three directions:<br>
+Our research group is dedicated to advancing the understanding and design of complex materials, with a particular focus on macromolecules and polymers. By integrating cutting-edge computational techniques, we aim to revolutionize materials science in the following key areas:
 
-- Establish fundamental understanding of topological constraints that are ubiquitous in macromolecules to enable rational control of dynamics, rheology, mechanics, and transport of materials. <br> 
-  - Understanding the role of molecular topology and entanglements in polymer mechanical properties with neural force-fields at the ab-initio accuracy <br> 
-- Develop advanced hierarchical simulation methods based on statistical mechanics and machine learning for first-principle predictions of materials properties. <br> 
-  - Reliable machine-learning force-fields for atomistic and coarse-grained molecular simulations <br> 
-- Integrate machine learning and multiscale simulations into computational-driven materials design to allow autonomous discovery/design of functional materials with target properties <br> 
-  - Targeted topology design for polymeric materials with systematic coarse-graining and machine learning <br> 
+1. Molecular topology in Macromolecules: We seek to establish a fundamental understanding of the molecular topologies that naturally occur in macromolecular systems. These topological structures play a crucial role in determining the dynamics, rheology, mechanics, and transport properties of materials. By uncovering these principles, we aim to enable the rational control of these properties in both synthetic and biological systems.
+2. Advanced Hierarchical Simulations: We are pioneering the development of advanced hierarchical simulation techniques. Using a combination of statistical mechanics and machine learning, we are creating predictive models that enable first-principle forecasts of material properties. Our simulations span from atomistic to coarse-grained levels, providing insights across multiple scales.
+3. Machine-Learning-Driven Materials Discovery: We integrate machine learning and multiscale simulations into computational-driven materials design. This approach enables the autonomous discovery and design of functional materials with specific, targeted properties. By developing reliable machine-learning force-fields, we aim to accelerate the design of new materials, particularly polymeric materials with tailored topologies.
 
+Through our interdisciplinary research, we strive to push the boundaries of chemistry, polymer physics, and computational materials science, fostering innovation in the discovery and design of next-generation macromolecular materials. Join us in our mission to transform the way we understand and engineer functional macromolecular materials!
 
 <br><br><br>
