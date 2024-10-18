@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Chaoran Sui
+title: Yue Song
 description: Undergraduate (Chemistry)<br>Final year project<br>Email&#58; Yue.Song21@student.xjtlu.edu.cn
 img: assets/img/yue_song.jpeg
 redirect: 
-importance: 1
+importance: 4
 category: Undergraduates
 horizontal: true
 ---
