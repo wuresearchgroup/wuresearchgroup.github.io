@@ -15,6 +15,6 @@ nav_order: 1
 
 Through our interdisciplinary research, we strive to push the boundaries of chemistry, polymer physics, and computational materials science, fostering innovation in the discovery and design of next-generation macromolecular materials. Join us in our mission to transform the way we understand and engineer functional macromolecular materials!
 
-**Infrastructure** Our group currently have our own workstations with GPUs: 4$\times$3090 and 3$\times$4090 and CPUs: > 100 cores; In addition, XJTLU has university-wide [HPC center](https://hpc.xjtlu.edu.cn/), which is continuously growing. Currently, there are more than 60 GPUs and 1000 CPU cores. Find more details on [XJTLU HPC official website](https://hpc.xjtlu.edu.cn/).
+**Research Infrastructure** Our group currently have our own workstations with GPUs: 4 $\times$ 3090 and 3 $\times$ 4090 and CPUs: > 100 cores; In addition, XJTLU has university-wide HPC center, which is continuously growing. Currently, there are more than 60 GPUs and 1000 CPU cores. Find more details on [XJTLU HPC official website](https://hpc.xjtlu.edu.cn/).
 
 <br><br><br>
