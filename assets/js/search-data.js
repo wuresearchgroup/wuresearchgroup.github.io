@@ -404,14 +404,14 @@ ninja.data = [{
           section: "News",},{id: "news-dr-wu-gave-a-contributed-talk-at-ccs-conference-of-theory-computation-and-modeling-for-soft-matter-guangzhou",
           title: 'Dr. Wu gave a contributed talk at CCS Conference of Theory, Computation, and...',
           description: "",
-          section: "News",},{id: "news-zhirui-ug-student-published-a-first-author-paper-on-journal-of-physical-chemistry-b-force-field-benchmark-for-polydimethylsiloxane-density-heat-capacities-isothermal-compressibility-viscosity-and-thermal-conductivity",
-          title: 'Zhirui (UG student) published a first-author paper on Journal of Physical Chemistry B:...',
-          description: "",
           section: "News",},{id: "news-dr-wu-co-authored-a-paper-published-in-advanced-materials-field-induced-polarization-rotation-in-order-disorder-k-na-nbo3-based-ferroelectrics",
           title: 'Dr. Wu co-authored a paper published in Advanced Materials: Field-Induced Polarization Rotation in...',
           description: "",
           section: "News",},{id: "news-dr-wu-co-authored-a-review-paper-published-in-current-opinion-in-solid-state-materials-science-a-practical-guide-to-machine-learning-interatomic-potentials-status-and-future",
           title: 'Dr. Wu co-authored a review paper published in Current Opinion in Solid State...',
+          description: "",
+          section: "News",},{id: "news-zhirui-ug-student-published-a-first-author-paper-on-journal-of-physical-chemistry-b-force-field-benchmark-for-polydimethylsiloxane-density-heat-capacities-isothermal-compressibility-viscosity-and-thermal-conductivity",
+          title: 'Zhirui (UG student) published a first-author paper on Journal of Physical Chemistry B:...',
           description: "",
           section: "News",},{id: "projects-chaoran-sui",
           title: 'Chaoran Sui',
@@ -448,8 +448,8 @@ ninja.data = [{
           description: "Undergraduate Student (Chemistry)Email&amp;#58; yuqi.wei22@student.xjtlu.edu.cn",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuqi_Wei/";
-            },},{id: "projects-prof-zhenghao-wu",
-          title: 'Prof. Zhenghao Wu',
+            },},{id: "projects-dr-zhenghao-wu",
+          title: 'Dr. Zhenghao Wu',
           description: "Assistant ProfessorDepartment of ChemistryXi&#39;an Jiaotong Liverpool UniversityEmail&amp;#58; zhenghao.wu@xjtlu.edu.cn",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Zhenghao_Wu/";
