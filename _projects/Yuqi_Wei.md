@@ -5,6 +5,6 @@ description: Undergraduate Student (Chemistry)<br>Email&#58; yuqi.wei22@student.
 img: assets/img/yuqi_wei.jpeg
 redirect: 
 importance: 3
-category: Undergraduates
+category: Undergraduate Students
 horizontal: true
 ---

@@ -5,6 +5,6 @@ description: Undergraduate (Chemistry)<br>Final year project<br>Email&#58; Yue.S
 img: assets/img/yue_song.jpeg
 redirect: 
 importance: 4
-category: Undergraduates
+category: Undergraduate Students
 horizontal: true
 ---

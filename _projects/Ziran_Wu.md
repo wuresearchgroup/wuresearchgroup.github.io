@@ -5,6 +5,6 @@ description: Undergraduate Student (Chemistry)<br>Currently at University of Liv
 img: assets/img/ziran_wu.jpeg
 redirect: 
 importance: 2
-category: Undergraduates
+category: Undergraduate Students
 horizontal: true
 ---

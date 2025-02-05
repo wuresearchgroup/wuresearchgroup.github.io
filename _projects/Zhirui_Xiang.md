@@ -5,6 +5,6 @@ description: Undergraduate Student (Chemistry)<br>[Github](https://github.com/Ra
 img: assets/img/zhirui_xiang.jpeg
 redirect: 
 importance: 1
-category: Undergraduates
+category: Undergraduate Students
 horizontal: true
 ---
