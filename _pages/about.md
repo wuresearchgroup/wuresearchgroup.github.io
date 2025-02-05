@@ -5,7 +5,7 @@ permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: middle
+  align: right
   image: web_cover.png
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -27,4 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-test
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/web_cover.png" title="Welcome to the CompMacro Lab @ XJTLU" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<br>
+
+**Welcome to the $$ (M)^3 $$ (<u>M</u>ultiscale <u>M</u>olecular <u>M</u>odeling, pronounced Cubic) Lab <a href='https://www.xjtlu.edu.cn/en'>@ Xi'an Jiaotong Liverpool University</a>!** We are a theoretical and computational research group. We use and develop tools such as molecular simulations, coarse-graining methods, statistical mechanical theories, and machine learning algorithms to study the behaviors of soft matter. We are particularly interested in polymers and biomolecules. The goal of our group is to understand, predict, and rationally design macromolecular materials to fight modern "*Zombies*" (*energy*, *healthcare* and *sustainbility* questions). To achieve these, we believe advancements in the following two areas are needed:
+
+- To advance the multiscale simulation capabilities to understand and predict materials properties from molecular to continuum levels
+- To develop intelligent approaches for materials-by-design of functional materials under normal and extreme conditions
+
