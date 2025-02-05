@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "See [Google Scholar](https://scholar.google.com/citations?user=UCZC5w8AAAAJ&amp;hl=en&amp;authuser=1). Asterisk (*) denotes corresponding authors. Ampersand (&amp;) denotes equal contribution.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
