@@ -420,32 +420,32 @@ ninja.data = [{
               window.location.href = "/projects/Chaoran_Sui/";
             },},{id: "projects-haoqi-lyu",
           title: 'Haoqi Lyu',
-          description: "Undergraduate Student (Chemistry)Continue his UG at University of Liverpool, UKEmail&amp;#58; haoqi.lyu22@student.xjtlu.edu.cn",
+          description: "Undergraduate Student (Chemistry)Continue his UG at University of Liverpool, UK",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Haoqi_Lyu/";
             },},{id: "projects-minghao-deng",
           title: 'Minghao Deng',
-          description: "Master Student (Materials Science)B.Sc, Nanjing University of Posts and TelecommunicationsEmail&amp;#58; minghao.deng23@student.xjtlu.edu.cn",
+          description: "Master Student (Materials Science)B.Sc, Nanjing University of Posts and Telecommunications",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Minghao_Deng/";
             },},{id: "projects-weijian-zhang",
           title: 'Weijian Zhang',
-          description: "Master Student (Chemistry)B.Sc, Shandong UniversityEmail&amp;#58; weijian.zhang23@student.xjtlu.edu.cn",
+          description: "Master Student (Chemistry)B.Sc, Shandong University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Weijian_Zhang/";
             },},{id: "projects-xunhe-liu",
           title: 'Xunhe Liu',
-          description: "Master Student (Chemistry)B.Sc, Taiyuan University of TechnologyEmail&amp;#58; xunhe.liu23@student.xjtlu.edu.cn",
+          description: "Master Student (Chemistry)B.Sc, Taiyuan University of Technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Xunhe_Liu/";
             },},{id: "projects-yue-song",
           title: 'Yue Song',
-          description: "Undergraduate (Chemistry)Final year projectEmail&amp;#58; Yue.Song21@student.xjtlu.edu.cn",
+          description: "Undergraduate (Chemistry)Final year project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yue_Song/";
             },},{id: "projects-yuqi-wei",
           title: 'Yuqi Wei',
-          description: "Undergraduate Student (Chemistry)Email&amp;#58; yuqi.wei22@student.xjtlu.edu.cn",
+          description: "Undergraduate Student (Chemistry)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuqi_Wei/";
             },},{id: "projects-dr-zhenghao-wu",
@@ -455,12 +455,12 @@ ninja.data = [{
               window.location.href = "/projects/Zhenghao_Wu/";
             },},{id: "projects-zhirui-xiang",
           title: 'Zhirui Xiang',
-          description: "Undergraduate Student (Chemistry)[Github](https://github.com/RachelXiang)Email&amp;#58; zhirui.xiang21@student.xjtlu.edu.cn",
+          description: "Undergraduate Student (Chemistry)[Github](https://github.com/RachelXiang)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Zhirui_Xiang/";
             },},{id: "projects-ziran-wu",
           title: 'Ziran Wu',
-          description: "Undergraduate Student (Chemistry)Currently at University of Liverpool, UKEmail&amp;#58; ziran.wu22@student.xjtlu.edu.cn",
+          description: "Undergraduate Student (Chemistry)Currently at University of Liverpool, UK",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Ziran_Wu/";
             },},{
