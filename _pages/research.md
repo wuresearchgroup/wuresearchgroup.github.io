@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description: Materials for courses you taught. Replace this text with your description.
+description: Everything Should Be Made as Simple as Possible, But Not Simpler --- Albert Einstein
 nav: true
 nav_order: 2
 ---
