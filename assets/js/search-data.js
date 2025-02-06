@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "Research",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Everything Should Be Made as Simple as Possible, But Not Simpler --- Albert Einstein",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
