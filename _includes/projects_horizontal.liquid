@@ -4,7 +4,7 @@
       <div class="row no-gutters">
         {% if project.img %}
           <div class="col-md-6">
-            {% include figure.liquid path=project.img alt="project thumbnail" %}
+            {% include figure.liquid path=project.img alt="project thumbnail" sizes="100px" %}
           </div>
         {% endif %}
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
