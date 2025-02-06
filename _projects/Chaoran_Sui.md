@@ -6,5 +6,5 @@ img: assets/img/chaoran_sui.jpeg
 redirect: 
 importance: 1
 category: Alumni
-horizontal: true
+horizontal: false
 ---

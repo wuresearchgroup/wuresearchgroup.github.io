@@ -6,5 +6,5 @@ img: assets/img/xunhe_liu.jpg
 redirect: 
 importance: 3
 category: Graduate Students
-horizontal: true
+horizontal: false
 ---

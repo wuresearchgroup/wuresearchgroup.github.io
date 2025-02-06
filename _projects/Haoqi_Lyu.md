@@ -6,5 +6,5 @@ img: assets/img/haoqi_lyu.jpg
 redirect: 
 importance: 4
 category: Alumni
-horizontal: true
+horizontal: false
 ---

@@ -6,5 +6,5 @@ img: assets/img/zhirui_xiang.jpeg
 redirect: 
 importance: 1
 category: Undergraduate Students
-horizontal: true
+horizontal: false
 ---

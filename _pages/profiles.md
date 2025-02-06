@@ -6,7 +6,7 @@ description: Great people
 nav: true
 nav_order: 4
 display_categories: [Principal Investigator, Graduate Students, Undergraduate Students, Alumni]
-horizontal: true
+horizontal: false
 ---
 <!-- pages/projects.md -->
 <div class="projects">

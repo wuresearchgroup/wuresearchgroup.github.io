@@ -6,5 +6,5 @@ img: assets/img/minghao_deng.jpg
 redirect: 
 importance: 1
 category: Graduate Students
-horizontal: true
+horizontal: false
 ---

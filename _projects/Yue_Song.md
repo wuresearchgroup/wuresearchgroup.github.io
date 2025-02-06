@@ -6,5 +6,5 @@ img: assets/img/yue_song.jpeg
 redirect: 
 importance: 4
 category: Undergraduate Students
-horizontal: true
+horizontal: false
 ---

@@ -6,5 +6,5 @@ img: assets/img/weijian_zhang.jpg
 redirect: 
 importance: 2
 category: Graduate Students
-horizontal: true
+horizontal: false
 ---
