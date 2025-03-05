@@ -448,6 +448,11 @@ ninja.data = [{
           description: "Undergraduate Student (Chemistry)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuqi_Wei/";
+            },},{id: "projects-zhangtao-yi",
+          title: 'Zhangtao Yi',
+          description: "Research Assistant (PhD Student in June) (Chemistry)B.Sc, Nanjing University",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Zhangtao_Yi/";
             },},{id: "projects-dr-zhenghao-wu",
           title: 'Dr. Zhenghao Wu',
           description: "Assistant ProfessorDepartment of ChemistryXi&#39;an Jiaotong Liverpool UniversityEmail&amp;#58; zhenghao.wu@xjtlu.edu.cn",
