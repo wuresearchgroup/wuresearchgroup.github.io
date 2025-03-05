@@ -2,7 +2,7 @@
 layout: page
 title: Haoqi Lyu
 description: Undergraduate Student (Chemistry)<br>Continue his UG at University of Liverpool, UK<br>
-img: assets/img/haoqi_lyu.jpg
+img: assets/img/haoqi_lyu.jpeg
 redirect: 
 importance: 4
 category: Alumni
