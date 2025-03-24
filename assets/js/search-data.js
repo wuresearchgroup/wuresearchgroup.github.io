@@ -454,6 +454,11 @@ ninja.data = [{
           description: "Undergraduate Student (Chemistry)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuqi_Wei/";
+            },},{id: "projects-zhirui-xiang",
+          title: 'Zhirui Xiang',
+          description: "Undergraduate Student (Chemistry)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Yuxiang_Chen/";
             },},{id: "projects-zhangtao-yi",
           title: 'Zhangtao Yi',
           description: "Research Assistant (PhD Student in June) (Chemistry)B.Sc, Nanjing University",
