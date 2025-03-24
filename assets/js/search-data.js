@@ -454,8 +454,8 @@ ninja.data = [{
           description: "Undergraduate Student (Chemistry)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuqi_Wei/";
-            },},{id: "projects-zhirui-xiang",
-          title: 'Zhirui Xiang',
+            },},{id: "projects-yuxiang-chen",
+          title: 'Yuxiang Chen',
           description: "Undergraduate Student (Chemistry)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuxiang_Chen/";
