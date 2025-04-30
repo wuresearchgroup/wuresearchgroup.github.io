@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Yue Song
-description: Undergraduate (Chemistry)<br>Final year project<br>
+description: Undergraduate (Chemistry)<br>Final year project 2025<br>
 img: assets/img/yue_song.jpeg
 redirect: 
 importance: 4

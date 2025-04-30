@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Zhirui Xiang
-description: Undergraduate Student (Chemistry)<br>[Github](https://github.com/RachelXiang)<br>
+description: Undergraduate Student (Chemistry)<br>Research assistant<br>[Github](https://github.com/RachelXiang)<br>
 img: assets/img/zhirui_xiang.jpeg
 redirect: 
 importance: 1
