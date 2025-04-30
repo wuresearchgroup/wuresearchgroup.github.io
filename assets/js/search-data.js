@@ -421,12 +421,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-chaoran-sui",
           title: 'Chaoran Sui',
-          description: "Undergraduate (Chemistry)Final year project⮕ M.Sc., Georgetown University, USA",
+          description: "Undergraduate (Chemistry)Final year project 2024⮕ M.Sc., Georgetown University, USA",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Chaoran_Sui/";
             },},{id: "projects-haoqi-lyu",
           title: 'Haoqi Lyu',
-          description: "Undergraduate Student (Chemistry)Continue his UG at University of Liverpool, UK",
+          description: "Undergraduate Student (Chemistry)SURF 2024Continue his UG at University of Liverpool, UK",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Haoqi_Lyu/";
             },},{id: "projects-minghao-deng",
@@ -446,7 +446,7 @@ ninja.data = [{
               window.location.href = "/projects/Xunhe_Liu/";
             },},{id: "projects-yue-song",
           title: 'Yue Song',
-          description: "Undergraduate (Chemistry)Final year project",
+          description: "Undergraduate (Chemistry)Final year project 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yue_Song/";
             },},{id: "projects-yuqi-wei",
@@ -471,7 +471,7 @@ ninja.data = [{
               window.location.href = "/projects/Zhenghao_Wu/";
             },},{id: "projects-zhirui-xiang",
           title: 'Zhirui Xiang',
-          description: "Undergraduate Student (Chemistry)[Github](https://github.com/RachelXiang)",
+          description: "Undergraduate Student (Chemistry)Research assistant[Github](https://github.com/RachelXiang)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Zhirui_Xiang/";
             },},{id: "projects-ziran-wu",
