@@ -9,7 +9,7 @@ nav_order: 5
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/group_photos/group_dinner_20250522.png" title=Group Dinner 22.05.2025" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/group_photos/group_dinner_20250522.png" title=Group Dinner" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <br>
