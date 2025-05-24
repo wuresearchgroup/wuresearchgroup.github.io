@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-gallery",
-          title: "Gallery",
-          description: "Some beautiful moments",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/gallery/";
-          },
-        },{id: "nav-research",
+  },{id: "nav-research",
           title: "Research",
           description: "Everything Should Be Made as Simple as Possible, But Not Simpler --- Albert Einstein",
           section: "Navigation",
@@ -36,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
+          },
+        },{id: "nav-gallery",
+          title: "Gallery",
+          description: "Some beautiful moments",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/gallery/";
           },
         },{id: "nav-openings",
           title: "Openings",
