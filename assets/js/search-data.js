@@ -468,7 +468,7 @@ ninja.data = [{
               window.location.href = "/projects/Yuxiang_Chen/";
             },},{id: "projects-zhangtao-yi",
           title: 'Zhangtao Yi',
-          description: "Research Assistant (PhD Student in June) (Chemistry)B.Sc, Nanjing University",
+          description: "PhD Student (Chemistry)B.Sc, Nanjing University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Zhangtao_Yi/";
             },},{id: "projects-dr-zhenghao-wu",
