@@ -444,7 +444,7 @@ ninja.data = [{
               window.location.href = "/projects/Haoqi_Lyu/";
             },},{id: "projects-minghao-deng",
           title: 'Minghao Deng',
-          description: "Master Student (Materials Science)B.Sc, Nanjing University of Posts and Telecommunications",
+          description: "Master Student (Materials Science) 2025B.Sc, Nanjing University of Posts and Telecommunications⮕ China Mobile, Nanjing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Minghao_Deng/";
             },},{id: "projects-morgan-adams",
@@ -454,17 +454,17 @@ ninja.data = [{
               window.location.href = "/projects/Morgan_Adams/";
             },},{id: "projects-weijian-zhang",
           title: 'Weijian Zhang',
-          description: "Master Student (Chemistry)B.Sc, Shandong University",
+          description: "Master Student (Chemistry) 2025B.Sc, Shandong University⮕ Intern at Yangtze Delta Region Transformation Center",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Weijian_Zhang/";
             },},{id: "projects-xunhe-liu",
           title: 'Xunhe Liu',
-          description: "Master Student (Chemistry)B.Sc, Taiyuan University of Technology",
+          description: "Master Student (Chemistry) 2025B.Sc, Taiyuan University of Technology⮕ China National Petroleum Corporation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Xunhe_Liu/";
             },},{id: "projects-yue-song",
           title: 'Yue Song',
-          description: "Undergraduate (Chemistry)Final year project 2025",
+          description: "Undergraduate (Chemistry)Final year project 2025⮕ Master student at CAS, Beijing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yue_Song/";
             },},{id: "projects-yuqi-wei",
@@ -489,7 +489,7 @@ ninja.data = [{
               window.location.href = "/projects/Zhenghao_Wu/";
             },},{id: "projects-zhirui-xiang",
           title: 'Zhirui Xiang',
-          description: "Undergraduate Student (Chemistry)Research assistant[Github](https://github.com/RachelXiang)",
+          description: "Undergraduate Student (Chemistry) 2025Research assistant[Github](https://github.com/RachelXiang)⮕ Notre Dame University, USA",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Zhirui_Xiang/";
             },},{id: "projects-ziqing-wang",
