@@ -429,6 +429,9 @@ ninja.data = [{
           section: "News",},{id: "news-we-had-group-dinner-at-xinjiang-restaurant-to-celebrate-the-end-of-the-semester",
           title: 'We had group dinner at Xinjiang Restaurant to celebrate the end of the...',
           description: "",
+          section: "News",},{id: "news-welcome-zhangtao-yi-officially-join-the-group-as-a-phd-student",
+          title: 'Welcome Zhangtao Yi officially join the group as a PhD Student!',
+          description: "",
           section: "News",},{id: "projects-chaoran-sui",
           title: 'Chaoran Sui',
           description: "Undergraduate (Chemistry)Final year project 2024⮕ M.Sc., Georgetown University, USA",
@@ -444,6 +447,11 @@ ninja.data = [{
           description: "Master Student (Materials Science)B.Sc, Nanjing University of Posts and Telecommunications",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Minghao_Deng/";
+            },},{id: "projects-morgan-adams",
+          title: 'Morgan Adams',
+          description: "Undergraduate from Unversity of Liverpool (Chemistry)Summer Intern 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Morgan_Adams/";
             },},{id: "projects-weijian-zhang",
           title: 'Weijian Zhang',
           description: "Master Student (Chemistry)B.Sc, Shandong University",
@@ -484,6 +492,11 @@ ninja.data = [{
           description: "Undergraduate Student (Chemistry)Research assistant[Github](https://github.com/RachelXiang)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Zhirui_Xiang/";
+            },},{id: "projects-ziqing-wang",
+          title: 'Ziqing Wang',
+          description: "Undergraduate (Chemistry)Summer Intern 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Ziqing_Wang/";
             },},{id: "projects-ziran-wu",
           title: 'Ziran Wu',
           description: "Undergraduate Student (Chemistry)Currently at University of Liverpool, UK",
