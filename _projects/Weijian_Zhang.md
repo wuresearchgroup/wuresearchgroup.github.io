@@ -1,12 +1,10 @@
 ---
 layout: page
 title: Weijian Zhang
-description: Master Student (Chemistry)<br>B.Sc, Shandong University<br>
+description: Master Student (Chemistry) 2025<br>B.Sc, Shandong University<br>⮕ Intern at Yangtze Delta Region Transformation Center
 img: assets/img/weijian_zhang.jpg
 redirect: 
 importance: 2
-category: Graduate Students
+category: Alumni
 horizontal: false
 ---
-
-Email&#58; weijian.zhang23@student.xjtlu.edu.cn

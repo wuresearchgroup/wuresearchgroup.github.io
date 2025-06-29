@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Minghao Deng
-description: Master Student (Materials Science)<br>B.Sc, Nanjing University of Posts and Telecommunications<br>
+description: Master Student (Materials Science) 2025<br>B.Sc, Nanjing University of Posts and Telecommunications<br>⮕ China Mobile, Nanjing
 img: assets/img/minghao_deng.jpg
 redirect: 
 importance: 1
-category: Graduate Students
+category: Alumni
 horizontal: false
 ---
 
