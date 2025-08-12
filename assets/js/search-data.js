@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
+        },{id: "nav-wiki",
+          title: "Wiki",
+          description: "WuGroup Wiki",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/wiki/";
+          },
         },{id: "nav-gallery",
           title: "Gallery",
           description: "Some beautiful moments",
@@ -452,6 +459,11 @@ ninja.data = [{
           description: "Undergraduate from Unversity of Liverpool (Chemistry)Summer Intern 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Morgan_Adams/";
+            },},{id: "projects-ruifeng-jiang",
+          title: 'Ruifeng Jiang',
+          description: "Visiting PhD Student South China University of Technology",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Ruifeng_Jiang/";
             },},{id: "projects-weijian-zhang",
           title: 'Weijian Zhang',
           description: "Master Student (Chemistry) 2025B.Sc, Shandong University⮕ Intern at Yangtze Delta Region Transformation Center",
