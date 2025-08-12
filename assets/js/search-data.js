@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "nav-wiki",
-          title: "Wiki",
-          description: "WuGroup Wiki",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/wiki/";
-          },
         },{id: "nav-gallery",
           title: "Gallery",
           description: "Some beautiful moments",
@@ -50,6 +43,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/openings/";
+          },
+        },{id: "nav-wiki",
+          title: "Wiki",
+          description: "WuGroup Wiki",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/wiki/";
           },
         },{id: "post-a-post-with-image-galleries",
       
