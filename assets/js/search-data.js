@@ -496,8 +496,8 @@ ninja.data = [{
           description: "Undergraduate Student (Chemistry)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuqi_Wei/";
-            },},{id: "projects-zhangtao-yi",
-          title: 'Zhangtao Yi',
+            },},{id: "projects-yuwei-shi",
+          title: 'Yuwei Shi',
           description: "Research Assistant (Chemistry)M.Sc, Chalmers University of TechnologyB.Sc, Tongji University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuwei_Shi/";
