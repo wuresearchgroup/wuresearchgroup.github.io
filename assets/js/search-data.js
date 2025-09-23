@@ -448,6 +448,9 @@ ninja.data = [{
           section: "News",},{id: "news-dr-wu-won-the-nsfc-young-scholar-fund-300-000-rmb-we-thank-the-kind-support-from-nsfc",
           title: 'Dr. Wu won the NSFC Young Scholar Fund (300,000 RMB). We thank the...',
           description: "",
+          section: "News",},{id: "news-welcome-yuwei-shi-joining-our-group-as-research-assistant-yuwei-is-going-to-work-on-ai-for-polymeric-materials-design",
+          title: 'Welcome Yuwei Shi joining our group as Research Assistant. Yuwei is going to...',
+          description: "",
           section: "News",},{id: "projects-chaoran-sui",
           title: 'Chaoran Sui',
           description: "Undergraduate (Chemistry)Final year project 2024⮕ M.Sc., Georgetown University, USA",
@@ -493,6 +496,11 @@ ninja.data = [{
           description: "Undergraduate Student (Chemistry)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuqi_Wei/";
+            },},{id: "projects-zhangtao-yi",
+          title: 'Zhangtao Yi',
+          description: "Research Assistant (Chemistry)M.Sc, Chalmers University of TechnologyB.Sc, Tongji University",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Yuwei_Shi/";
             },},{id: "projects-yuxiang-chen",
           title: 'Yuxiang Chen',
           description: "Undergraduate Student (Chemistry)",
