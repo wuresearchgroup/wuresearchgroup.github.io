@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Zhangtao Yi
+title: Yuwei Shi
 description: Research Assistant (Chemistry)<br>M.Sc, Chalmers University of Technology<br>B.Sc, Tongji University<br>
 img: assets/img/yuwei_shi.jpeg
 redirect: 
