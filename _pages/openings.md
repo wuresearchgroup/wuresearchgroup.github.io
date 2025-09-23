@@ -15,7 +15,7 @@ nav_order: 6
 <br>
 
 ## Openings for graduate students <br>
-**We currently have 1 funded Ph.D. position on polymer theory and simulations available in our group.** This position is collaborated with Prof. Heechae Choi. Future opennings and more details can be found on [Doctoral Admissions](https://www.xjtlu.edu.cn/en/admissions/doctoral) page. <br><br>
+**We are always looking for highly motivated PhD candidates to work at the intersection of multiscale simulation, machine learning, polymeric materials, and statistical physics.** Please email Dr. Zhenghao Wu (`zhenghao.wu@xjtlu.edu.cn`) with your CV and short description of your research interest.  <br><br>
 
 ## Master students and research volunteers
 **We welcome interested Master Students and research volunteers to our lab.** We have multiple projects available for students who are interested in machine learning, molecular modeling, polymer simulations in the general area of chemistry, chemical engineering and physics. We help and encourage master students and research volunteers to wrap up and publish their work in high-impact journals. You can email `zhenghao.wu@xjtlu.edu.cn` with your interests and background.<br><br>
