@@ -61,6 +61,3 @@ display_categories: [Principal Investigator, Graduate Students, Undergraduate St
   {% endif %}
 {% endif %}
 </div>
-
-
-Test where it displays
