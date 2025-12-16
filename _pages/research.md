@@ -7,13 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/group_photos/research_2025_12_16.png" title="Research Overview 12.16.2025" class="img-fluid rounded z-depth-1" width="100%" %}
-    </div>
-</div>
-<br>
-
 **The Wu research group** is dedicated to advancing the understanding and design of complex materials, with a particular focus on *macromolecules* and *polymers*. By integrating cutting-edge computational techniques, we aim to push the boundary forward in the following key areas:
 
 1. **Advanced Hierarchical Simulations**: We are pioneering the development of advanced hierarchical simulation techniques. Using a combination of statistical mechanics and machine learning, we are creating predictive models that enable first-principle forecasts of material properties. Our simulations span from atomistic to coarse-grained levels, providing insights across multiple scales.
@@ -23,5 +16,12 @@ nav_order: 2
 Through our interdisciplinary research, we strive to push the boundaries of chemistry, polymer physics, and computational materials science, fostering innovation in the discovery and design of next-generation macromolecular materials. Join us in our mission to transform the way we understand and engineer functional macromolecular materials!
 
 **Research Infrastructure** Our group currently owns workstations with GPUs: 4  $$ \times $$ 3090 and 3 $$ \times $$ 4090 and CPUs: > 100 cores; In addition, XJTLU has university-wide HPC center, which is continuously growing. Currently, there are more than 60 GPUs and 1000 CPU cores. Find more details on [XJTLU HPC official website](https://hpc.xjtlu.edu.cn/).
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/group_photos/research_2025_12_16.png" title="Research Overview 12.16.2025" class="img-fluid rounded z-depth-1" width="100%" %}
+    </div>
+</div>
+<br>
 
 <br><br><br>
