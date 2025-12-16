@@ -481,6 +481,11 @@ ninja.data = [{
           description: "Master Student (Chemistry) 2025B.Sc, Shandong University⮕ Intern at Yangtze Delta Region Transformation Center",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Weijian_Zhang/";
+            },},{id: "projects-xinyan-zhong",
+          title: 'Xinyan Zhong',
+          description: "Undergraduate Student (Chemistry)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Xinyan_Zhong/";
             },},{id: "projects-xunhe-liu",
           title: 'Xunhe Liu',
           description: "Master Student (Chemistry) 2025B.Sc, Taiyuan University of Technology⮕ China National Petroleum Corporation",
