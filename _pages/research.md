@@ -7,6 +7,13 @@ nav: true
 nav_order: 2
 ---
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/group_photos/research_2025_12_16.png" title="Research Overview 12.16.2025" class="img-fluid rounded z-depth-1" width="100%" %}
+    </div>
+</div>
+<br>
+
 **The Wu research group** is dedicated to advancing the understanding and design of complex materials, with a particular focus on *macromolecules* and *polymers*. By integrating cutting-edge computational techniques, we aim to push the boundary forward in the following key areas:
 
 1. **Advanced Hierarchical Simulations**: We are pioneering the development of advanced hierarchical simulation techniques. Using a combination of statistical mechanics and machine learning, we are creating predictive models that enable first-principle forecasts of material properties. Our simulations span from atomistic to coarse-grained levels, providing insights across multiple scales.
