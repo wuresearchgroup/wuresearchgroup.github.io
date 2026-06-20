@@ -1,0 +1,23 @@
+{% comment %} PI hero band. Expects `project` (the Principal Investigator entry) in scope. {% endcomment %}
+<div class="people-hero">
+  <div class="people-hero__photo">
+    {% include figure.liquid loading="eager" path=project.img sizes="160px" alt=project.title class="people-hero__img" %}
+  </div>
+  <div class="people-hero__body">
+    <h2 class="people-hero__name">{{ project.title }}</h2>
+    <div class="people-hero__role">{{ project.description }}</div>
+    <div class="people-hero__links">
+      {% assign scholar = project.scholar | default: project.redirect %}
+      {% if scholar and scholar != "" %}
+        <a class="people-hero__pill" href="{{ scholar }}" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-graduation-cap"></i> Google Scholar
+        </a>
+      {% endif %}
+      {% if project.email and project.email != "" %}
+        <a class="people-hero__pill" href="mailto:{{ project.email }}">
+          <i class="fa-solid fa-envelope"></i> Email
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>

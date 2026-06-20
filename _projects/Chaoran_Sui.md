@@ -6,5 +6,6 @@ img: assets/img/chaoran_sui.jpeg
 redirect: 
 importance: 1
 category: Alumni
+year: 2024
 horizontal: false
 ---

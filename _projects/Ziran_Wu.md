@@ -6,6 +6,7 @@ img: assets/img/ziran_wu.jpeg
 redirect: 
 importance: 2
 category: Undergraduate Students
+role: Undergraduate
 horizontal: false
 ---
 

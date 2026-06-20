@@ -6,6 +6,7 @@ img: assets/img/zhirui_xiang.jpeg
 redirect: 
 importance: 1
 category: Alumni
+year: 2025
 horizontal: false
 ---
 

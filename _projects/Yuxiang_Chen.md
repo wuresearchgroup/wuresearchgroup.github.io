@@ -6,5 +6,6 @@ img: assets/img/yuxiang_chen.jpeg
 redirect: 
 importance: 5
 category: Undergraduate Students
+role: Undergraduate
 horizontal: false
 ---

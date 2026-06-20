@@ -1,0 +1,18 @@
+{% comment %} One avatar cell for the current-member grids. Expects `project` in scope. {% endcomment %}
+{% if project.redirect and project.redirect != "" %}
+  {% assign href = project.redirect %}
+{% else %}
+  {% assign href = project.url | relative_url %}
+{% endif %}
+{% if project.role and project.role != "" %}
+  {% assign role = project.role %}
+{% else %}
+  {% assign role = project.description | split: "<br>" | first %}
+{% endif %}
+<a class="people-card" href="{{ href }}">
+  <div class="people-card__photo">
+    {% include figure.liquid loading="eager" path=project.img sizes="120px" alt=project.title class="people-card__img" %}
+  </div>
+  <div class="people-card__name">{{ project.title }}</div>
+  <div class="people-card__role">{{ role }}</div>
+</a>

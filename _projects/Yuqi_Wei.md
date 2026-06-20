@@ -6,6 +6,7 @@ img: assets/img/yuqi_wei.jpeg
 redirect: 
 importance: 3
 category: Undergraduate Students
+role: Undergraduate
 horizontal: false
 ---
 

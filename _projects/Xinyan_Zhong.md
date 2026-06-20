@@ -6,5 +6,6 @@ img: assets/img/xinyan_zhong.jpg
 redirect: 
 importance: 3
 category: Undergraduate Students
+role: Undergraduate
 horizontal: false
 ---

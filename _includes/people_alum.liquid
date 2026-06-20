@@ -1,0 +1,14 @@
+{% comment %} One compact alumni row. Expects `project` in scope. {% endcomment %}
+{% if project.redirect and project.redirect != "" %}
+  {% assign href = project.redirect %}
+{% else %}
+  {% assign href = project.url | relative_url %}
+{% endif %}
+{% assign note = project.description | replace: "<br>", " · " | strip %}
+<a class="people-alum" href="{{ href }}">
+  <div class="people-alum__photo">
+    {% include figure.liquid loading="lazy" path=project.img sizes="48px" alt=project.title class="people-alum__img" %}
+  </div>
+  <span class="people-alum__name">{{ project.title }}</span>
+  <span class="people-alum__note">{{ note }}</span>
+</a>

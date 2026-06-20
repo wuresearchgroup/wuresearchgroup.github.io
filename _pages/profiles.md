@@ -5,59 +5,42 @@ title: People
 description: Great people
 nav: true
 nav_order: 4
-display_categories: [Principal Investigator, Graduate Students, Undergraduate Students, Alumni]
 ---
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-1">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
+
+<div class="people">
+
+  {% assign pis = site.projects | where: "category", "Principal Investigator" | sort: "importance" %}
+  {% for project in pis %}
+    {% include people_hero.liquid %}
   {% endfor %}
 
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-1">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+  {% assign grads = site.projects | where: "category", "Graduate Students" | sort: "importance" %}
+  {% if grads.size > 0 %}
+    <h2 class="people-section-title">Graduate Students</h2>
+    <div class="people-grid">
+      {% for project in grads %}{% include people_avatar.liquid %}{% endfor %}
     </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
   {% endif %}
-{% endif %}
+
+  {% assign ugs = site.projects | where: "category", "Undergraduate Students" | sort: "importance" %}
+  {% if ugs.size > 0 %}
+    <h2 class="people-section-title">Undergraduate Students</h2>
+    <div class="people-grid">
+      {% for project in ugs %}{% include people_avatar.liquid %}{% endfor %}
+    </div>
+  {% endif %}
+
+  {% assign alumni = site.projects | where: "category", "Alumni" %}
+  {% if alumni.size > 0 %}
+    <h2 class="people-section-title">Alumni</h2>
+    <div class="people-alumni">
+      {% assign years = alumni | map: "year" | compact | uniq | sort | reverse %}
+      {% for y in years %}
+        <h3 class="people-alumni__year">{{ y }}</h3>
+        {% assign group = alumni | where: "year", y | sort: "importance" %}
+        {% for project in group %}{% include people_alum.liquid %}{% endfor %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
 </div>

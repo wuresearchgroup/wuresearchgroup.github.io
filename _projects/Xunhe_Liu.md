@@ -6,5 +6,6 @@ img: assets/img/xunhe_liu.jpg
 redirect: 
 importance: 3
 category: Alumni
+year: 2025
 horizontal: false
 ---
