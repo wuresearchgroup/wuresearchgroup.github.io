@@ -6,5 +6,6 @@ img: assets/img/ruifeng_jiang.jpeg
 redirect: 
 importance: 2
 category: Graduate Students
+role: Visiting PhD Student
 horizontal: false
 ---

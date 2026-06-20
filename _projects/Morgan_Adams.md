@@ -6,5 +6,6 @@ img: assets/img/morgan_adams.jpeg
 redirect: 
 importance: 4
 category: Undergraduate Students
+role: Summer Intern
 horizontal: false
 ---

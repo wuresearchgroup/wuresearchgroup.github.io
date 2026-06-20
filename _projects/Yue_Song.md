@@ -6,5 +6,6 @@ img: assets/img/yue_song.jpeg
 redirect: 
 importance: 4
 category: Alumni
+year: 2025
 horizontal: false
 ---

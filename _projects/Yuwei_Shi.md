@@ -6,5 +6,6 @@ img: assets/img/yuwei_shi.jpeg
 redirect: 
 importance: 3
 category: Graduate Students
+role: Research Assistant
 horizontal: false
 ---

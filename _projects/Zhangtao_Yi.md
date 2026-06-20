@@ -6,5 +6,6 @@ img: assets/img/zhangtao_yi.jpeg
 redirect: 
 importance: 2
 category: Graduate Students
+role: PhD Student
 horizontal: false
 ---
