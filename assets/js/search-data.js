@@ -521,7 +521,7 @@ ninja.data = [{
               window.location.href = "/projects/Zhangtao_Yi/";
             },},{id: "projects-dr-zhenghao-wu",
           title: 'Dr. Zhenghao Wu',
-          description: "Assistant ProfessorDepartment of ChemistryXi&#39;an Jiaotong Liverpool UniversityEmail&amp;#58; zhenghao.wu@xjtlu.edu.cn",
+          description: "Assistant ProfessorDepartment of ChemistryXi&#39;an Jiaotong-Liverpool University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Zhenghao_Wu/";
             },},{id: "projects-zhirui-xiang",
