@@ -5,7 +5,7 @@ description: Undergraduate from Unversity of Liverpool (Chemistry)<br>Summer Int
 img: assets/img/morgan_adams.jpeg
 redirect: 
 importance: 4
-category: Undergraduate Students
-role: Summer Intern
+category: Alumni
+year: 2025
 horizontal: false
 ---

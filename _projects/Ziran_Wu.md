@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Ziran Wu
-description: Undergraduate Student (Chemistry)<br>Currently at University of Liverpool, UK<br>
+description: Undergraduate Student (Chemistry)<br>Currently at University of Liverpool, UK<br> ⮕ PhD student at Dartmouth College, USA
 img: assets/img/ziran_wu.jpeg
 redirect: 
 importance: 2
-category: Undergraduate Students
-role: Undergraduate
+category: Alumni
+year: 2026
 horizontal: false
 ---
 
