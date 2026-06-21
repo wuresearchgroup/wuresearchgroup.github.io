@@ -4,15 +4,15 @@
 {% else %}
   {% assign href = project.url | relative_url %}
 {% endif %}
-{% if project.role and project.role != "" %}
-  {% assign role = project.role %}
+{% if project.description and project.description != "" %}
+  {% assign detail = project.description %}
 {% else %}
-  {% assign role = project.description | split: "<br>" | first %}
+  {% assign detail = project.role %}
 {% endif %}
 <a class="people-card" href="{{ href }}">
   <div class="people-card__photo">
     {% include figure.liquid loading="eager" path=project.img sizes="120px" alt=project.title class="people-card__img" %}
   </div>
   <div class="people-card__name">{{ project.title }}</div>
-  <div class="people-card__role">{{ role }}</div>
+  <div class="people-card__role">{{ detail }}</div>
 </a>
