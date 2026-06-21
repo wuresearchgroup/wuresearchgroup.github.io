@@ -454,6 +454,15 @@ ninja.data = [{
           section: "News",},{id: "news-dr-wu-published-research-articles-about-polymer-glass-transition-and-topological-design-on-nature-communications-and-science-advance-collaborated-with-prof-biao-zuo-from-zhengjiang-sci-tech-university",
           title: 'Dr. Wu published research articles about polymer glass transition and topological design on...',
           description: "",
+          section: "News",},{id: "news-congratulations-to-ziqing-wang-former-fyp-undergraduate-student-in-our-group-on-receiving-master-s-offers-from-the-university-of-manchester-and-the-national-university-of-singapore-she-has-decided-to-pursue-her-master-s-at-nus-we-wish-her-all-the-best",
+          title: 'Congratulations to Ziqing Wang, former FYP undergraduate student in our group, on receiving...',
+          description: "",
+          section: "News",},{id: "news-congratulations-to-ziran-wu-former-research-assistant-and-undergraduate-student-in-our-group-on-receiving-a-phd-offer-from-dartmouth-college-we-wish-her-great-success-in-her-doctoral-studies",
+          title: 'Congratulations to Ziran Wu, former research assistant and undergraduate student in our group,...',
+          description: "",
+          section: "News",},{id: "news-congratulations-to-yuqi-wei-research-assistant-and-undergraduate-student-in-our-group-on-receiving-a-master-s-offer-from-imperial-college-london-he-has-decided-to-stay-in-the-group-to-pursue-his-phd-we-look-forward-to-his-continued-work-with-us",
+          title: 'Congratulations to Yuqi Wei, research assistant and undergraduate student in our group, on...',
+          description: "",
           section: "News",},{id: "projects-chaoran-sui",
           title: 'Chaoran Sui',
           description: "Undergraduate (Chemistry)Final year project 2024⮕ M.Sc., Georgetown University, USA",
@@ -481,7 +490,7 @@ ninja.data = [{
               window.location.href = "/projects/Ruifeng_Jiang/";
             },},{id: "projects-weijian-zhang",
           title: 'Weijian Zhang',
-          description: "Master Student (Chemistry) 2025B.Sc, Shandong University⮕ Intern at Yangtze Delta Region Transformation Center",
+          description: "Master Student (Chemistry) 2025B.Sc, Shandong University ⮕ Staff at University of Science and Technology of China",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Weijian_Zhang/";
             },},{id: "projects-xinyan-zhong",
@@ -526,12 +535,12 @@ ninja.data = [{
               window.location.href = "/projects/Zhenghao_Wu/";
             },},{id: "projects-zhirui-xiang",
           title: 'Zhirui Xiang',
-          description: "Undergraduate Student (Chemistry) 2025Research assistant[Github](https://github.com/RachelXiang)⮕ Notre Dame University, USA",
+          description: "Undergraduate Student (Chemistry) 2025Research assistant ⮕ PhD student Notre Dame University, USA",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Zhirui_Xiang/";
             },},{id: "projects-ziqing-wang",
           title: 'Ziqing Wang',
-          description: "Undergraduate (Chemistry)Summer Intern 2025 ⮕ Masteri at National University of Singapore",
+          description: "Undergraduate (Chemistry)Summer Intern 2025 ⮕ Master student at National University of Singapore",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Ziqing_Wang/";
             },},{id: "projects-ziran-wu",
