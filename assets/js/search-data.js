@@ -531,12 +531,12 @@ ninja.data = [{
               window.location.href = "/projects/Zhirui_Xiang/";
             },},{id: "projects-ziqing-wang",
           title: 'Ziqing Wang',
-          description: "Undergraduate (Chemistry)Summer Intern 2025",
+          description: "Undergraduate (Chemistry)Summer Intern 2025 ⮕ Masteri at National University of Singapore",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Ziqing_Wang/";
             },},{id: "projects-ziran-wu",
           title: 'Ziran Wu',
-          description: "Undergraduate Student (Chemistry)Currently at University of Liverpool, UK",
+          description: "Undergraduate Student (Chemistry)Currently at University of Liverpool, UK ⮕ PhD student at Dartmouth College, USA",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Ziran_Wu/";
             },},{
