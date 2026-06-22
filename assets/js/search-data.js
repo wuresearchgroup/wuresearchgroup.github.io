@@ -465,7 +465,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-bicheng-han",
           title: 'Bicheng Han',
-          description: "PhD Student (Chemistry)  (co-supervised with Dr. Danlei Li) South China University of Technology",
+          description: "PhD Student (Chemistry)  (co-supervised with Dr. Danlei Li)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Bicheng_Han/";
             },},{id: "projects-chaoran-sui",
