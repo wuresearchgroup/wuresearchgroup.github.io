@@ -463,7 +463,12 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-yuqi-wei-research-assistant-and-undergraduate-student-in-our-group-on-receiving-a-master-s-offer-from-imperial-college-london-he-has-decided-to-stay-in-the-group-to-pursue-his-phd-we-look-forward-to-his-continued-work-with-us",
           title: 'Congratulations to Yuqi Wei, research assistant and undergraduate student in our group, on...',
           description: "",
-          section: "News",},{id: "projects-chaoran-sui",
+          section: "News",},{id: "projects-bicheng-han",
+          title: 'Bicheng Han',
+          description: "PhD Student (Chemistry)  (co-supervised with Dr. Danlei Li) South China University of Technology",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Bicheng_Han/";
+            },},{id: "projects-chaoran-sui",
           title: 'Chaoran Sui',
           description: "Undergraduate (Chemistry)Final year project 2024⮕ M.Sc., Georgetown University, USA",
           section: "Projects",handler: () => {
@@ -473,6 +478,11 @@ ninja.data = [{
           description: "Undergraduate Student (Chemistry)SURF 2024Continue his UG at University of Liverpool, UK",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Haoqi_Lyu/";
+            },},{id: "projects-junchen-wu",
+          title: 'Junchen Wu',
+          description: "Undergraduate Student (Chemistry)  Summer Intern",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Junchen_Wu/";
             },},{id: "projects-minghao-deng",
           title: 'Minghao Deng',
           description: "Master Student (Materials Science) 2025B.Sc, Nanjing University of Posts and Telecommunications⮕ China Mobile, Nanjing",
