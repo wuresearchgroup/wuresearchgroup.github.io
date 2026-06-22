@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bicheng Han
-description: PhD Student (Chemistry)  (co-supervised with Dr. Danlei Li) <br>South China University of Technology<br>
+description: PhD Student (Chemistry)  (co-supervised with Dr. Danlei Li) <br>
 img: assets/img/bicheng_han.jpg
 redirect: 
 importance: 4
