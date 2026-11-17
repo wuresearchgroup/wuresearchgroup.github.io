@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Yuqi Wei
-description: Undergraduate Student (Chemistry)<br>
+description: PhD Student (Chemistry)<br>
 img: assets/img/yuqi_wei.jpeg
 redirect: 
-importance: 3
-category: Undergraduate Students
-role: Undergraduate
+importance: 5
+category: Graduate Students
+role: PhD Student
 horizontal: false
 ---
 

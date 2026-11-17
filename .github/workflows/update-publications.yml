@@ -1,0 +1,35 @@
+name: Update publications
+
+# Weekly: add papers from ORCID (and XJTLU-affiliated OpenAlex matches) that are missing from papers.bib,
+# then open a PR for review. Needs "Allow GitHub Actions to create and approve pull requests"
+# (Settings → Actions → General → Workflow permissions).
+on:
+  schedule:
+    - cron: "0 1 * * 1" # Mondays 01:00 UTC (09:00 Beijing)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Find new publications 🔎
+        run: python3 bin/update_publications.py --summary "$RUNNER_TEMP/pr-body.md"
+      - name: Open pull request 📬
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/update-publications
+          delete-branch: true
+          add-paths: _bibliography/papers.bib
+          commit-message: Add new publications from ORCID/OpenAlex
+          title: New publications from ORCID/OpenAlex
+          body-path: ${{ runner.temp }}/pr-body.md

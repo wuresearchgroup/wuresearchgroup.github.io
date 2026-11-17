@@ -1,0 +1,59 @@
+# Entries shown on /software/, grouped by category.
+# To show a Data section, add a category whose items are datasets (e.g. Zenodo/Figshare links) under `data:`.
+software:
+  - category: Simulation Methods & Workflows
+    items:
+      - name: RobertoMD.jl
+        url: https://github.com/Chenghao-Wu/RobertoMD.jl
+        language: Julia
+        description: Massively parallel hybrid particle-field molecular dynamics (hPF-MD) in Julia.
+      - name: fastMD
+        url: https://github.com/Chenghao-Wu/fastMD
+        language: CUDA
+        description: Optimized codes for fast molecular dynamics on GPUs.
+      - name: m3flow
+        url: https://github.com/Chenghao-Wu/m3flow
+        language: Rust
+        description: A task-centric, artifact-driven, provenance-first workflow runtime for multiscale modeling.
+      - name: Polymer-CG-Simulation-HOOMDBlue
+        url: https://github.com/Chenghao-Wu/Polymer-CG-Simulation-HOOMDBlue
+        language: Python
+        description: Scripts for coarse-grained polymer simulations in HOOMD-blue.
+  - category: Analysis & Visualization
+    items:
+      - name: SMolSAT
+        url: https://github.com/Chenghao-Wu/SMolSAT
+        language: C++
+        description: SMolSAT.py, the Soft-Matter Molecular Simulation Analysis Toolkit.
+      - name: SMolSAT2
+        url: https://github.com/Chenghao-Wu/SMolSAT2
+        language: C++
+        description: The next-generation SMolSAT, rewritten in modern C++ with a Python interface.
+      - name: pubplot
+        url: https://github.com/Chenghao-Wu/pubplot
+        language: Python
+        description: Publication-quality plotting, used across the group.
+  - category: AI for Computational Science
+    items:
+      - name: superscientist
+        url: https://github.com/Chenghao-Wu/superscientist
+        language: Agent skills
+        description: An agentic skills framework for physical computational science, from quantum mechanics to molecular simulation.
+      - name: MCP_LAMMPS
+        url: https://github.com/Chenghao-Wu/MCP_LAMMPS
+        language: Python
+        description: A LAMMPS MCP server that lets LLM agents set up and run molecular dynamics.
+      - name: compchem-bench
+        url: https://github.com/Chenghao-Wu/compchem-bench
+        language: Python
+        description: A benchmark for LLMs on computational chemistry tasks.
+      - name: skill_lammps
+        url: https://github.com/Chenghao-Wu/skill_lammps
+        language: Agent skills
+        description: A Claude Code skill to write and validate LAMMPS input scripts.
+      - name: skill_packmol
+        url: https://github.com/Chenghao-Wu/skill_packmol
+        language: Agent skills
+        description: A Claude Code skill that uses Packmol to build initial configurations for particle simulations.
+
+data: []

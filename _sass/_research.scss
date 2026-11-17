@@ -1,0 +1,65 @@
+/* Research page (/research/) */
+
+.research-area {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  background-color: var(--global-card-bg-color);
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  &__figure {
+    flex: 0 0 36%;
+    align-self: center;
+
+    // figure.liquid wraps images in <figure><picture><img>; keep wrappers layout-neutral
+    figure {
+      margin: 0;
+    }
+    picture {
+      display: block;
+    }
+  }
+  &__body {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  &__title {
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem;
+    color: var(--global-text-color);
+  }
+  &__description {
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+  }
+  &__papers-title {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.25rem;
+  }
+
+  ol.bibliography {
+    margin: 0;
+    padding-left: 1.2rem;
+
+    li {
+      font-size: 0.9rem;
+      margin-bottom: 0.3rem;
+    }
+  }
+}
+
+.research-paper__venue {
+  color: var(--global-text-color-light);
+  font-style: italic;
+  white-space: nowrap;
+}
