@@ -553,7 +553,7 @@ ninja.data = [{
               window.location.href = "/projects/Yue_Song/";
             },},{id: "projects-yuqi-wei",
           title: 'Yuqi Wei',
-          description: "PhD Student (Chemistry)",
+          description: "PhD Student (Chemistry)B.Sc (Chemistry), Xi&#39;an Jiaotong-Liverpool University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuqi_Wei/";
             },},{id: "projects-yuwei-shi",
