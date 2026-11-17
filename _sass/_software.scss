@@ -1,0 +1,57 @@
+/* Software & Data page (/software/) */
+
+.software-section-title {
+  color: var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.software-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    transform: translateY(-2px);
+    text-decoration: none;
+    color: var(--global-text-color);
+  }
+
+  &__name {
+    font-weight: bold;
+    color: var(--global-theme-color);
+    margin-bottom: 0.4rem;
+    overflow-wrap: anywhere;
+  }
+  &__description {
+    flex: 1 1 auto;
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+  &__tag {
+    align-self: flex-start;
+    font-size: 0.75rem;
+    padding: 0.1rem 0.6rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    color: var(--global-text-color-light);
+  }
+}

@@ -1,0 +1,27 @@
+# Research areas shown as cards on /research/.
+# Key papers are pulled from _bibliography/papers.bib: tag an entry with `thrust = {<id>}` to list it under that card.
+# image: path under assets/img/
+- id: hierarchical
+  title: Advanced Hierarchical Simulations
+  image: publication_preview/2020-12-04-JCTC2020.png
+  description: >
+    We are pioneering the development of advanced hierarchical simulation techniques. Using a combination of
+    statistical mechanics and machine learning, we are creating predictive models that enable first-principle
+    forecasts of material properties. Our simulations span from atomistic to coarse-grained levels, providing
+    insights across multiple scales.
+- id: design
+  title: Computational Design of Advanced Materials
+  image: publication_preview/2025-03-1.png
+  description: >
+    We integrate machine learning and multiscale simulations into computational-driven materials design. This
+    approach enables the autonomous discovery and design of functional materials with specific, targeted properties.
+    By developing reliable machine-learning force-fields, we aim to accelerate the design of new materials,
+    particularly polymeric materials with tailored topologies.
+- id: topology
+  title: Molecular Topology in Macromolecules
+  image: publication_preview/2025-11-10-NatureCommunications.png
+  description: >
+    We seek to establish a fundamental understanding of the molecular topologies that naturally occur in
+    macromolecular systems. These topological structures play a crucial role in determining the dynamics, rheology,
+    mechanics, and transport properties of materials. By uncovering these principles, we aim to enable the rational
+    control of these properties in both synthetic and biological systems.

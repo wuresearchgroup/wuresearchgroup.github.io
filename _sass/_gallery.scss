@@ -1,0 +1,38 @@
+/* Gallery page (/gallery/) */
+
+.gallery-grid {
+  column-count: 3;
+  column-gap: 1rem;
+  margin-top: 1rem;
+
+  @media (max-width: 768px) {
+    column-count: 2;
+  }
+  @media (max-width: 480px) {
+    column-count: 1;
+  }
+
+  // figure.liquid wraps images in <figure><picture><img>; keep wrappers layout-neutral
+  figure {
+    margin: 0;
+  }
+  picture {
+    display: block;
+  }
+}
+
+.gallery-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+
+  img {
+    width: 100%;
+  }
+}
+
+.gallery-item .caption {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 0.4rem;
+}

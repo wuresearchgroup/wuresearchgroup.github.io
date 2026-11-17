@@ -1,0 +1,8 @@
+# Photos shown on /gallery/, newest first.
+# image: path under assets/img/group_photos/
+- image: group_dinner_20250522.png
+  caption: Group Dinner 5.22.2025
+- image: graduates_2025.png
+  caption: Graduates 2025
+- image: graduates_2024.png
+  caption: Graduates 2024

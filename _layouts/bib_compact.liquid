@@ -1,0 +1,14 @@
+---
+---
+{%- if entry.doi -%}
+  {%- assign paper_link = entry.doi | remove: 'https://doi.org/' | prepend: 'https://doi.org/' -%}
+{%- elsif entry.url -%}
+  {%- assign paper_link = entry.url -%}
+{%- else -%}
+  {%- assign paper_link = entry.html -%}
+{%- endif -%}
+{%- assign venue = entry.abbr | default: entry.journal | default: entry.booktitle | default: entry.publisher -%}
+<span class="research-paper">
+  <a href="{{ paper_link }}">{{ entry.title }}</a>
+  <span class="research-paper__venue">{% if venue %}{{ venue }}, {% endif %}{{ entry.year }}</span>
+</span>
