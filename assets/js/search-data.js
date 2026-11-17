@@ -23,12 +23,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-software-amp-data",
+          title: "Software &amp; Data",
+          description: "Open-source codes and data from the group",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/software/";
+          },
         },{id: "nav-people",
           title: "People",
           description: "Great people",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
+          },
+        },{id: "nav-news",
+          title: "News",
+          description: "What&#39;s new in the group",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
           },
         },{id: "nav-gallery",
           title: "Gallery",
@@ -49,7 +63,7 @@ ninja.data = [{
           description: "WuGroup Wiki",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/wiki/";
+            window.location.href = "/group-wiki/";
           },
         },{id: "post-a-post-with-image-galleries",
       
@@ -469,6 +483,9 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-yuxiang-chen-on-his-co-authored-preprint-catgo-bridging-cli-coding-agents-with-interactive-structure-and-workflow-management-for-computational-chemistry-now-available-on-chemrxiv-https-doi-org-10-26434-chemrxiv-15002984-v1",
           title: 'Congratulations to Yuxiang Chen on his co-authored preprint, CatGo: Bridging CLI Coding Agents...',
           description: "",
+          section: "News",},{id: "news-our-paper-topology-dependent-mechanical-failure-of-knotted-polymer-chains-from-reactive-molecular-dynamics-is-published-in-macromolecules-the-first-author-is-zhirui-xiang-former-undergraduate-student-and-research-assistant-in-our-group-and-now-a-phd-student-at-the-university-of-notre-dame-the-work-is-a-collaboration-with-tianhang-zhou-china-university-of-petroleum-beijing-and-francesco-zonta-xjtlu",
+          title: 'Our paper Topology-Dependent Mechanical Failure of Knotted Polymer Chains from Reactive Molecular Dynamics...',
+          description: "",
           section: "News",},{id: "projects-bicheng-han",
           title: 'Bicheng Han',
           description: "PhD Student (Chemistry)  (co-supervised with Dr. Danlei Li)",
@@ -479,6 +496,16 @@ ninja.data = [{
           description: "Undergraduate (Chemistry)Final year project 2024⮕ M.Sc., Georgetown University, USA",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Chaoran_Sui/";
+            },},{id: "projects-chengxuan-ji",
+          title: 'Chengxuan Ji',
+          description: "Undergraduate Student (Chemistry)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Chengxuan_Ji/";
+            },},{id: "projects-chuhuan-huang",
+          title: 'Chuhuan Huang',
+          description: "Undergraduate Student (Chemistry)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Chuhuan_Huang/";
             },},{id: "projects-haoqi-lyu",
           title: 'Haoqi Lyu',
           description: "Undergraduate Student (Chemistry)SURF 2024Continue his UG at University of Liverpool, UK",
@@ -496,7 +523,7 @@ ninja.data = [{
               window.location.href = "/projects/Minghao_Deng/";
             },},{id: "projects-morgan-adams",
           title: 'Morgan Adams',
-          description: "Undergraduate from Unversity of Liverpool (Chemistry)Summer Intern 2025",
+          description: "Undergraduate from University of Liverpool (Chemistry)Summer Intern 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Morgan_Adams/";
             },},{id: "projects-ruifeng-jiang",
@@ -526,12 +553,12 @@ ninja.data = [{
               window.location.href = "/projects/Yue_Song/";
             },},{id: "projects-yuqi-wei",
           title: 'Yuqi Wei',
-          description: "Undergraduate Student (Chemistry)",
+          description: "PhD Student (Chemistry)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuqi_Wei/";
             },},{id: "projects-yuwei-shi",
           title: 'Yuwei Shi',
-          description: "Research Assistant (Chemistry)M.Sc, Chalmers University of TechnologyB.Sc, Tongji University",
+          description: "PhD Student (Chemistry)M.Sc, Chalmers University of TechnologyB.Sc, Tongji University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuwei_Shi/";
             },},{id: "projects-yuxiang-chen",
@@ -539,6 +566,11 @@ ninja.data = [{
           description: "Undergraduate Student (Chemistry)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Yuxiang_Chen/";
+            },},{id: "projects-zaara-karim",
+          title: 'Zaara Karim',
+          description: "Undergraduate from University of Liverpool (Chemistry)Summer Intern 2026",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Zaara_Karim/";
             },},{id: "projects-zhangtao-yi",
           title: 'Zhangtao Yi',
           description: "PhD Student (Chemistry)B.Sc, Nanjing University",
