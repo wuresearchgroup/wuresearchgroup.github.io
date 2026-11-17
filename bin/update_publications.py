@@ -44,6 +44,10 @@ PREPRINT_SERVERS = {
 }
 KEEP_FIELDS = ["title", "author", "journal", "booktitle", "volume", "number", "pages", "year", "month"]
 STOP_WORDS = {"a", "an", "the", "on", "of", "in", "for", "and", "to", "via", "with"}
+# Works removed from the site on purpose: never re-added. Lowercase DOI without a version suffix (/v1, /v2...).
+EXCLUDED_DOIS = {
+    "10.26434/chemrxiv.15004805",  # PolyTrace preprint, removed 2026-11-17
+}
 
 
 def fetch(url, accept="application/json", retries=3):
@@ -243,7 +247,7 @@ def main():
             if work["source"] == "ORCID" and not find_same_title(title_key, titles):
                 skipped_no_doi.append(work["title"])
             continue
-        if work["doi"] in known_dois:
+        if work["doi"] in known_dois or re.sub(r"/v\d+$", "", work["doi"]) in EXCLUDED_DOIS:
             continue
         note = ""
         match = find_same_title(title_key, titles) if title_key else None

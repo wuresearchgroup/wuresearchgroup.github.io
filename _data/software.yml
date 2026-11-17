@@ -15,20 +15,12 @@ software:
         url: https://github.com/Chenghao-Wu/m3flow
         language: Rust
         description: A task-centric, artifact-driven, provenance-first workflow runtime for multiscale modeling.
-      - name: Polymer-CG-Simulation-HOOMDBlue
-        url: https://github.com/Chenghao-Wu/Polymer-CG-Simulation-HOOMDBlue
-        language: Python
-        description: Scripts for coarse-grained polymer simulations in HOOMD-blue.
   - category: Analysis & Visualization
     items:
       - name: SMolSAT
         url: https://github.com/Chenghao-Wu/SMolSAT
         language: C++
         description: SMolSAT.py, the Soft-Matter Molecular Simulation Analysis Toolkit.
-      - name: SMolSAT2
-        url: https://github.com/Chenghao-Wu/SMolSAT2
-        language: C++
-        description: The next-generation SMolSAT, rewritten in modern C++ with a Python interface.
       - name: pubplot
         url: https://github.com/Chenghao-Wu/pubplot
         language: Python
