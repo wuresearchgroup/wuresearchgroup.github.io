@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Yuqi Wei
-description: PhD Student (Chemistry)<br>
+description: PhD Student (Chemistry)<br>B.Sc (Chemistry), Xi'an Jiaotong-Liverpool University<br>
 img: assets/img/yuqi_wei.jpeg
 redirect: 
 importance: 5
